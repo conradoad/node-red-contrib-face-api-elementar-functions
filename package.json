@@ -1,0 +1,35 @@
+{
+  "name": "red-contrib-face-api-elementar-functions",
+  "version": "1.0.0",
+  "description": "Wrapper nodes for the elementar functions from face-api.js library",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conradoad/node-red-contrib-face-api-elementar-functions.git"
+  },
+  "keywords": [
+    "face",
+    "detection",
+    "recognition",
+    "face-api"
+  ],
+  "author": "conradoad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conradoad/node-red-contrib-face-api-elementar-functions/issues"
+  },
+  "homepage": "https://github.com/conradoad/node-red-contrib-face-api-elementar-functions#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "canvas": "^2.6.1",
+    "face-api.js": "^0.22.2"
+  },
+  "node-red": {
+    "nodes": {
+      "detect-faces": "detect-faces.js"
+    }
+  }
+}
